@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://xlitemprod.pearsoncmg.com/assignment/assignmentplayer.aspx -->
+<html class="dj_webkit dj_chrome dj_contentbox"><head id="head"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Assignment Viewer</title>
+    <script type="text/javascript" async="" src="./analytics.js.download"></script><script type="text/javascript" async="" src="./js"></script><script async="" src="./js(1)"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}</script><script type="text/javascript" charset="utf-8" src="./AssignmentPlayer.js.download"></script><script type="text/javascript" src="./tdxClientLoader.js.download"></script>
+    <link rel="stylesheet" href="./assignment.less.css"><style type="text/css">
+        html, body, form {
+            margin: 0;
+            padding: 0;
+        }
+
+        #assignmentViewer {
+            width: 100%;
+        }
+
+        #activityFrame {
+            display: block;
+        }
+
+        .errorPanel {
+            padding: 15px;
+            max-width: 550px;
+        }
+    </style>
+
+
+<script type="text/javascript" src="./dojo.js.download"></script></head>
+<body class="dbootstrap">
+    <div data-dojo-attach-point="containerNode" class="assignmentViewer playmode-homework" id="assignmentViewer" widgetid="assignmentViewer">
+    <div class="main-content-container" data-dojo-attach-point="panelMain" style="height: 100%">
+        <div class="title-bar" data-dojo-attach-point="panelMainBar">
+            <table class="valign-middle">
+                <tbody><tr>
+                    <td class="assignment-title fullwidth">
+                        <span role="heading" aria-level="2" class="title" data-dojo-attach-point="titleNode"><label>Homework: </label>Section 7.2</span>
+                    </td>
+                    <td class="assignment-extra">
+                        <span class="time hidden" data-dojo-attach-point="timeInfoSpan">
+                            <label data-dojo-attach-point="timeLabel"></label>
+                            <span data-dojo-attach-point="timeValue"></span>
+                        </span>
+                        <span class="title" data-dojo-attach-point="extraTitleNode"></span>
+                        <button data-dojo-attach-point="btnClose" data-dojo-type="xl.dijit-bootstrap.Button" data-dojo-props="tabIndex:1" class="btn btn-default btn-primary" type="button" id="xl_dijit-bootstrap_Button_0" tabindex="1" widgetid="xl_dijit-bootstrap_Button_0" style="user-select: none;">Save</button>
+                        <div data-dojo-attach-point="containerNode" class="button-settings hidden" widgetid="xl_player_PlayerMenu_0">
+    <button data-dojo-attach-point="icon, _buttonNode, focusNode" class="button-settings hiddenIcon dijitDownArrowButton" aria-label="Player Menu" aria-haspopup="true" role="menu" id="xl_player_PlayerMenu_0" tabindex="2"><span data-dojo-attach-point="buttonLabel">&nbsp;</span></button>
+    <table class="dijit dijitMenu dijitMenuPassive dijitReset dijitMenuTable button-settings hiddenMenu" role="menu" tabindex="0" cellspacing="0" id="dijit_Menu_0" widgetid="dijit_Menu_0" style="display: none;">
+	<tbody class="dijitReset" data-dojo-attach-point="containerNode"></tbody>
+</table>
+
+                        </div>
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+        <div class="summary-bar" data-dojo-attach-point="panelSubBar">
+            <table data-dojo-attach-point="panelStats">
+                <tbody><tr>
+                    <td class="left" aria-label="Score: 0.83 of 1 point">
+                        <span class="text" data-dojo-attach-point="labelItemTitle" aria-hidden="true" title="Score: 0.83 of 1 pt"><b>Score:</b> 0.83 of 1 pt</span>
+                    </td>
+                    <td class="align-center center">
+                        <span data-dojo-attach-point="labelOverview" class="hidden"></span>
+                        <div class="btn-group nowrap" data-dojo-attach-point="groupOverview" role="navigation">
+                            <button data-dojo-attach-point="btnPrev" data-dojo-type="xl.dijit-bootstrap.Button" class="btn btn-default btn-prev" data-dojo-props="tabIndex:3" type="button" id="xl_dijit-bootstrap_Button_1" tabindex="3" widgetid="xl_dijit-bootstrap_Button_1" title="Previous question" aria-label="Previous question" aria-disabled="false" style="user-select: none;">
+                                <span class="icon-arrow-left"></span>
+                            </button><button data-dojo-attach-point="btnOverview" data-dojo-type="xl.assignment.OverviewButton" class="dijitbelow-centeredArrowButton btn btn-default btn-overview" data-dojo-props="tabIndex:4" type="button" id="xl_assignment_OverviewButton_0" tabindex="4" widgetid="xl_assignment_OverviewButton_0" aria-haspopup="true" title="Overview, question 10 of 12, 11 complete" aria-label="Overview, question 10 of 12, 11 complete" style="user-select: none;">10 of 12 (11 complete)&nbsp;<span class="icon-arrow-down"></span></button><button data-dojo-attach-point="btnNext" data-dojo-type="xl.dijit-bootstrap.Button" class="btn btn-default btn-next" data-dojo-props="tabIndex:8" type="button" id="xl_dijit-bootstrap_Button_4" tabindex="8" widgetid="xl_dijit-bootstrap_Button_4" title="Next question" aria-label="Next question" aria-disabled="false" style="user-select: none;">
+                                <span class="icon-arrow-right"></span>
+                            </button>
+                        </div>
+                    </td>
+                    <td class="right align-right">
+                        <div class="text" data-dojo-attach-point="labelOverallScore"><b>HW Score:</b> 84.03%, 10.08 of 12 points</div>
+                    </td>
+
+                </tr>
+            </tbody></table>
+            <table role="presentation" data-dojo-attach-point="panelRemediationTopBar" style="display:none" class="remediationBar">
+                <colgroup>
+                    <col width="100%">
+                    <col>
+                </colgroup>
+                <tbody><tr>
+                    <td class="left remediationTitle">
+                        <span data-dojo-attach-point="labelRemediationTitle" class="remediationTitle">Skill Builder</span>
+                    </td>
+                    <td class="right">
+                        <button data-dojo-attach-point="btnReturnToHW" data-dojo-type="xl.dijit-bootstrap.Button" data-dojo-props="tabIndex:2" class="btn btn-default btn-primary btnReturnToHW" type="button" id="xl_dijit-bootstrap_Button_5" tabindex="2" widgetid="xl_dijit-bootstrap_Button_5" style="user-select: none;">Return to Homework</button>
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+
+        <div style="overflow: hidden;">
+            <table class="itemplayertable" role="presentation" data-dojo-attach-point="itemPlayerTable">
+                <tbody><tr class="itemplayertablerow" data-dojo-attach-point="itemPlayerTableRow">
+                    <td>
+                        <div class="player-wrapper" data-dojo-attach-point="panelPlayer" role="main" style="width: 1688px; height: 675px;">
+                            <iframe data-dojo-attach-point="activityFrame" id="activityFrame" src="./Player.html" scrolling="auto" style="width: 1688px; height: 675px; border: none;" title="Homework Overview : Homework: Section 7.2" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
+                        </div>
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+
+    </div>
+</div>
+    <script language="javascript" type="text/javascript">
+        dojoConfig={"has":{"dojo-test-sniff":false},"baseUrl":"/dojo","isDebug":false,"async":true,"dojoBlankHtmlUrl":"https://xlitemprod.pearsoncmg.com/blank.html","packages":[{"name":"xl","location":"../xl"},{"name":"localization","location":"https://xlitemprod.pearsoncmg.com/api/localization"},{"name":"dojox","location":"../dojox"}],"deps":["xl/monkeypatch/all","xl/util/ga"],"culture":"","originalCulture":"","cacheBust":"","localizationLastModified":"638123970820000000","loggerApiUrl":"https://xlitemprod.pearsoncmg.com/api/v1/log","googleAnalyticsId":"UA-48773414-5","keyboardLayoutsUrl":"https://xlitemprod.pearsoncmg.com/Client_Data/keyboards","map":{"*":{"dojo/on":"xl/modulepatch/dojo/on"}},"isMobileDevice":false,"clientTimeout":240000,"imageGenServer":"https://acs-imagegen.dev-prsn.com"};
+tinyMCEPreInit={"base":"/xl/nonamd/mce/src/4.1.10","suffix":""}
+        if (localStorage && localStorage["localeOverride"])
+            dojoConfig.culture = localStorage["localeOverride"];
+            
+        dojoConfig.acVersionedUrl = 'https://acs-cdn.prd-prsn.com/assessmentclient/versions/44.0.0/34';
+        var showOverview = false;
+        var player = showOverview ? "xl/assignment/OverviewPlayer" : "xl/assignment/AssignmentPlayer";
+        function playerInit() {
+            require([
+                    "dojo/dom",
+                    player,
+                    "dojo/domReady!",
+                    "dojo/_base/config",
+                    "xl/util/domMethods"
+                ],
+
+                function (dom, AssignmentPlayer, domReady, config, domMethods) {
+
+                    var viewer = new AssignmentPlayer({},
+                        dom.byId("assignmentViewer"));
+
+
+                    viewer.serviceUrl = 'https://xlitemprod.pearsoncmg.com/api/v1/assignment';
+                    viewer.startup();
+
+                    viewer.initialize({
+                        assignmentSession: '@s8UH4Lo7UokLf6oGsx2ZLw==!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',
+                        culture: config.culture,
+                        playMode: 'Homework',
+                        correlationId: ''
+                    });
+
+                    domMethods.addLangAttrToHtmlTag(dojoConfig);
+                }
+            );
+        }
+
+        tdxClientLoader.load(
+            'https://acs-cdn.prd-prsn.com/tdxclient/versions/44.0.0/28',
+            'v=~44.0.0-28~',
+            [ '/xl/themes/highered/assignment.less.css' ],
+            '/dojo/dojo.js',
+            playerInit
+        );
+    </script>
+
+
+<div class="xlStandby" aria-role="status" aria-live="polite" id="xl_dijit_Standby_0" widgetid="xl_dijit_Standby_0"><div class="xlStandbyUnderlay" style="display: none; opacity: 0; z-index: -1000; position: absolute; cursor: wait; background-color: rgb(192, 192, 192); width: 1688px; height: 740px; top: 0px; left: 0px; border-radius: 0px;" dojoattachpoint="_underlayNode"></div><img class="xlStandbyImage" src="./loading.gif" style="opacity: 0; display: none; z-index: -1000; position: absolute; top: 354px; left: 828px; cursor: wait;" dojoattachpoint="_imageNode" alt="Please Wait..."><div class="xlStandbyText" style="opacity: 0; display: none; z-index: -10000; position: absolute; top: 0px;" dojoattachpoint="_textNode">Please wait...</div></div></body></html>

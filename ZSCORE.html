@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<!-- saved from url=(0692)https://mylab.pearson.com/Student/PlayerHomework.aspx?homeworkId=644139138&questionId=1&flushed=false&cId=7306144&back=https://mylab.pearson.com/Student/DoAssignments.aspx?canvas_enrollment_state=active&amp;canvas_user_id=33505&amp;context_parent_id=3869f72fe6404b85bef85eeee6c1aaf8&amp;canvas_api_domain=canvas.dccc.edu&amp;canvas_user_login_id=P00631143&amp;canvas_course_id=37681&amp;canvas_workflow_state=available&amp;orig_context_id=78d557c557fdafd6f339b451b364ab9e9f0a3503&amp;tool_consumer_info_product_family_code=canvas&amp;SSL-ENABLED=true&amp;tool_consumer_info_version=cloud&amp;lis_course_offering_sourcedid=MAT-210-52-886-202301-1-C&amp;lis_person_sourcedid=657158&amp;view=all -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><iframe src="javascript:void(0)" title="" role="presentation" style="width: 0px; height: 0px; border: 0px; display: none;" src="./ZSCORE_files/saved_resource.html"></iframe><script type="text/javascript" async="" src="./ZSCORE_files/analytics.js.download"></script><script type="text/javascript" src="./ZSCORE_files/d527718953(1)"></script><script src="./ZSCORE_files/nr-1216.min.js.download"></script><script async="" src="./ZSCORE_files/analytics.js.download"></script><script async="" src="./ZSCORE_files/gtm.js.download"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"d527718953","applicationID":"90216940","transactionName":"bwBbMhBWVkYFV0RbClZKeDUyGEtBEVBVXBEXFVUHG1JKXQtZVUUKSg4XBxFHQA==","queueTime":0,"applicationTime":18,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:false},ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"d527718953",applicationID:"90216940"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script><link rel="SHORTCUT ICON" href="https://mylab.pearson.com/App_Themes/Math/images/favicon.ico?v=2"><link href="./ZSCORE_files/math.css" type="text/css" rel="stylesheet"><title>
+	Do Homework - Section 7.2
+</title>
+         <script type="text/javascript">
+             var gtmaccount = "GTM-5JX93LK";
+             var gtmpreview = "env-2";
+             var gtmauth = "SVJdwwG3ki5lLhJ_zIzvuA";
+             var dataLayer = [];
+        </script>
+  
+        <script type="text/javascript" src="./ZSCORE_files/GoogleTagManagerHeader.js.download"></script>
+    <link rel="stylesheet" type="text/css" href="./ZSCORE_files/siteprinting.css" media="print">
+	
+       <style type="text/css">
+       @media screen and (max-width:700px) {
+          .course-title {
+              width:95%!important;
+          }
+       }
+       @media screen and (max-width:1200px) {
+          .custom-margin {
+             margin-bottom: -8px !important;
+          }
+       }
+       </style>
+
+	
+	
+	
+    <style type="text/css">
+        a.skip-main {
+            left:-999px;
+            position:absolute;
+            top:1px;
+            width:1px;
+            height:1px;
+            overflow:hidden;
+            z-index:-999;
+        }
+
+        a.skip-main:focus, a.skip-main:active {
+            color: #047a9c;
+            background-color:#fff;
+            left: 1px;
+            top: 1px;
+            width: auto;
+            height: auto;            
+            overflow:hidden;
+            margin: 1px;
+            padding: 2px 50px 2px 50px;
+            border:1px solid #047a9c;
+            text-align:center;
+            z-index:11000;
+            text-decoration: none;
+        }
+    </style>
+<script src="./ZSCORE_files/localization.js.download"></script>
+<link href="./ZSCORE_files/TdxCompatible.css" rel="stylesheet" type="text/css">
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"true","rua.cpush":"false","rua.upre":"true","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-66b553d3-479e-47ac-b1ef-9546c616ccd7","rua.cook":"true","rua.ims":"false","rua.ufprl":"true","rua.cfprl":"true","rua.isuxp":"false","rua.texp":"norulematch"}]);</script>
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="TC9CG-N4NH6-7CGM7-F2T9G-VFZE7",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"TC9CG-N4NH6-7CGM7-F2T9G-VFZE7",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e="true"=="true"?1:0,t="cookiepresent",n="z6whmntiljlsczbay7kq-f-9f180e986-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"1247965","ak.ai":parseInt("749919",10),"ak.ol":"0","ak.cr":18,"ak.ipv":4,"ak.proto":"h2","ak.rid":"20c3603","ak.r":38419,"ak.a2":e,"ak.m":"x","ak.n":"essl","ak.bpcip":"207.172.118.0","ak.cport":59463,"ak.gh":"23.221.225.62","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"","ak.t":"1679869909","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==7JfynWoHQjpUPAXIFDRKprjzaBqRDrAlmiVoJepOrnO7qKt+W3IiRzyDgdEIIp8+wEZa1NF5kSnGOJwp22ViLvEW96Id7ipF7OfZXuxUJuAbXaIIpIgprq4nIXBe9ifStVT22wTVeVzc98QY5l4a9kt2D9SYYGhVtPVgmS2LK0XP3cSSxLryoyr9bUeQFFz/2wIaBCmHPUpfkOZmERn30ewprdpuVqZOq/YDM5V1mcd3hlY5m1Qxp8Ns3mSJxm4ThgZK01rDXuwmtQ9VqwTXspzFgcPxjaPLGZ/l381/WDPoO5Zlbwv16Bgb/xb2FOvJnNiTHq8je8u3iaPnanO7QGGkwcq/ZbPd+Uvm4F6+YhoejQ8Wvp+ycmBCU1XVPNQvBCBbFAQJKQ5+ZD+iuK9JhxB460zq6iDCYeasPXOH4O8=","ak.pv":"1","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body class="math" style="padding-top: 54px;">
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JX93LK&gtm_auth=SVJdwwG3ki5lLhJ_zIzvuA&gtm_preview=env-2&gtm_cookies_win=x"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+	
+	
+    <a href="https://mylab.pearson.com/Student/PlayerHomework.aspx?homeworkId=644139138&amp;questionId=1&amp;flushed=false&amp;cId=7306144&amp;back=https://mylab.pearson.com/Student/DoAssignments.aspx?canvas_enrollment_state=active&amp;amp;canvas_user_id=33505&amp;amp;context_parent_id=3869f72fe6404b85bef85eeee6c1aaf8&amp;amp;canvas_api_domain=canvas.dccc.edu&amp;amp;canvas_user_login_id=P00631143&amp;amp;canvas_course_id=37681&amp;amp;canvas_workflow_state=available&amp;amp;orig_context_id=78d557c557fdafd6f339b451b364ab9e9f0a3503&amp;amp;tool_consumer_info_product_family_code=canvas&amp;amp;SSL-ENABLED=true&amp;amp;tool_consumer_info_version=cloud&amp;amp;lis_course_offering_sourcedid=MAT-210-52-886-202301-1-C&amp;amp;lis_person_sourcedid=657158&amp;amp;view=all#content" onclick="javascript:skipToContent();" class="skip-main">Skip to main content</a>
+
+	<form name="aspnetForm" method="post" action="https://mylab.pearson.com/Student/PlayerHomework.aspx?homeworkId=644139138&amp;questionId=1&amp;flushed=false&amp;cId=7306144&amp;back=https%3a%2f%2fmylab.pearson.com%2fStudent%2fDoAssignments.aspx%3fcanvas_enrollment_state%3dactive&amp;amp%3bcanvas_user_id=33505&amp;amp%3bcontext_parent_id=3869f72fe6404b85bef85eeee6c1aaf8&amp;amp%3bcanvas_api_domain=canvas.dccc.edu&amp;amp%3bcanvas_user_login_id=P00631143&amp;amp%3bcanvas_course_id=37681&amp;amp%3bcanvas_workflow_state=available&amp;amp%3borig_context_id=78d557c557fdafd6f339b451b364ab9e9f0a3503&amp;amp%3btool_consumer_info_product_family_code=canvas&amp;amp%3bSSL-ENABLED=true&amp;amp%3btool_consumer_info_version=cloud&amp;amp%3blis_course_offering_sourcedid=MAT-210-52-886-202301-1-C&amp;amp%3blis_person_sourcedid=657158&amp;amp%3bview=all" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VSTATE" id="__VSTATE" value="@gO+WdU9O8qbK9fUhugexkQ==!NapmFZFo7a7iMks3igBQ9aE+h22EtBJOIbAJgUWwEoncJYxXxiQnhL5blNXYvHpCygW/uz1j/+gRXzbKbO0W5SeZfqnqK61MGfKyFfKFv9CdF5CGT++nTRZpQTL6QK3piq3jezRzrH/xpy/MyLkxJQNzw1nD/o8BfxtN5zaWyiu3JfQ9wO9TM4LQbozOYjXErqh78Z1I9uxvnUnH/yIfqnCfuXeblPg74ifxYug3A5Ynzumz01xXcqAQgXiex4AeBVQR9ky8WvSarHHhSxD9Tjk4S//7KBIdQnhk8ewU/QeWT+8N7FLS6eUPn9kTk8P4O1Mr3wrzFzEDwg6oS2TunLLcKlPNvBCgWbiP/nGS1gS3yT4YeBt/jKQwwssMM4HkN2Q2LxzWJgc5uxBk/9R7OmCwURQjPM3cHewx5ghSPf4CcGzRWnumZ/bkFy37+pU8MYFaqA+j3v3MWmgDYQfjJPttdWz3ilcGPCr6Cg/hn0YzSBRIzacQI1tXp6B4+D3mhcM5Z0qyeMxPoJTGCJb6JUZDYl9rOFNNrMfbmMgoE5O3zohhafgvEbgue553ya8bGFA41kWYMY8S0cJ9VFtI1bU/hSDipcpC16cbPEpbBCUwZfup0g+CS/BlcKVhzmOgLoSOfqr9SxRI9sfCzHcwryb3edwuXY7E3P4xfYWUKt4ZQoiwX93t8A/dGonb3sWzuBOwguzoRQIYgDlzBWyU0bUfDb71Eq0O7gc2NeGEjHhKgEz2KDMqZzfbn8qSRypPlejQYZaq5uUP1mZSWDPmEM72biNU7xZIC3Rb84yEW1rM5XcOe52VZSoh0HvtrYxGCNWBtzwz4DPbDHo9HcQ+d7L1mbHvY1WM5iiQzxSDIxPv0PSyZRF+Uw2ywnJHp/n05KcOeV5vWO/aahvY0i2q17X8wZ2t/0Fdn/oOsQs80PesWP2l5oh9BEol/OhZq2ifotpJN8G7JTuqqAZMzpk+9F87cCtKSXFS4HOFHgfEq10OiiEx/qwaP7guYBVOOngiTxM0Ez/rvoheAYo+ICJ5y+ASCIIN8ZXTIYRnZjyGy8a/Cxdl8rBJFIpU4lbmDxVDMv3povKXkh1mVqeMIU/4Um4/4s2EEKvWf049VUCHaAegm8xkoeOhsewWRekU5ZqQCSkGbVFq6jC5NwjXsNK0/X+zT0SA/StrX7eo2ibRZK6Edfq1iJzBrXSHlpt24tfxZNV1VqmtP3J57SyDuOhtcmZmM42oNL9TyXjPi9gd7ujD+EAw4PKH0ZOFFpHqe0M4Ns6FH6X4we7qUQEHnV01D12OrvCq8x2pKV/ry0+Kjt1y3sSIOtaioplAv6egtAgXPdNbhNfQ2ym1twUfWuJA0HRwBtXqaASZTDcQHF9vosyyrGCOqNVDQF2jU9E4rYlLcGU/c+gNx+cX4i1O3RfQ7cZ1EsseBNR6JwteF/Vfr+5VbOhoYFN1tKdsd+ioqYafIrz5YDKlk2DFv2ARSNxCkPcl7208C9Eo4PwyIZlhC75u8VE63x+KWMy8NltRu1dh3VhIq0LZ6dtqDKXbw5hJJFnydXvrxwGZbZtWIcuxVr4FMJgzsjbHyLtLjkcF20ey9daeLJkxagflX+cYQsPF/WBNblp4uIND9G9kLpc2RFGKEh28ksh+yKMlJygTnt3mr7QF1IVBCJ8gKry2UjHkfDCidbOPXjaWEI02/IEPIN7/Jtved/M1gBD6VLsZBNpgh4X1CJWdI5sswvxT+vced9FGXMuNqTizwhK6a10WUs0A+cxAUShRL45oSeixsqS6TYtrxehCwYdxKWUX0pQuyxhFzje2OS18e6zjJkmxSG5imCvNL73APTktg3kq2Cremzk4ZFS5MgB/efjEN2dTSqD4egoqlYTlsNqyPRxPBceDEfY7++JpDJfOv9FnJvG0DnVphegsTVfcbD3525S+maSj5MMCcfIOqGg3gogW4aTNMqEVegKY6s1lZORMd77k/200mL77knHkyEr8vQTKlJp5PLjqLeyJNHo+617R8KefPmi2Cxr2l0y6mLin5ySBiYY7CFn+Z/LiVMSnwVXzf63u2dL2pTirFBLSEvuNN3rmjl+wnPxSX43Th57AvePcVXFaBKt+zhNW5ZtobkhQ+/jAGHxEs9h4y5yDfMmiPBAnofc5GLrN5ZOwKR3OL8g0LmMzmKSLBy/bzZCXsU20UyzvJyqoLnFYakye2q4WchLeszDDPZS3YtB62H7Bvvd8mh23d10r9rp2345pofqBzJB/EXmmd65vRMc0IiHZLZdShw+4K024zLEvAp5v+wZIwifXcXU/f4aUDgHRXVUyZEw1tZhUU9hMAk1oaWgC8LCCn1tuZmYXrymwhLBrJAn6Wgg1HL4LkcCpEr4ec59LuY1WaTH0DFz6VtiWpvuva2mXkklzlxt1IcVJY31F5CTi+Vc8F7UOTj/MJRvC7ozYXxdd5L2f9wEmogzzVGoeJsF1aQm5fWGUQ/pXVB3GymaDd4WxtLfKKrkYmNNqSFnM+P1xRzUAZ47+BRFiIKp+LUQbrolC3+jgoOCPYNZ4H61g">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./ZSCORE_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+LOCNS.LocMap.RegRes("student/playerhomework.aspx","PleaseWaitUntilMediaClose","Please wait until the current media window closes and processing has completed, then click on the media item again.");
+LOCNS.LocMap.RegRes("student/playerhomework.aspx","ErrorScoringMediaItem","An unexpected error occurred. Please click on the media item again.\n");
+//]]>
+</script>
+
+<script src="./ZSCORE_files/NextGenPlayer.js.download" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var BaseUrl="../";
+var BaseAbsUrl="https://mylab.pearson.com/";
+var BackUrl="https://mylab.pearson.com/Student/DoAssignments.aspx?canvas_enrollment_state=active";
+var LocDateParts= { "ttam": "AM", "ttpm": "PM"};
+var LocClockPattern="MM/dd/yy h:mm tt";
+var StrUtils_DecimalSeparator=".";
+LOCNS.LocMap.RegRes("common/formtracker.js","LeaveAlert","Your changes will not be saved.");
+LOCNS.LocMap.RegRes("common/formtracker.js","LeaveConfirm","Are you sure you want to navigate away from this page?\n\n\n\n{0}\n\n\n\nPress OK to continue, or Cancel to stay on the current page.");
+LOCNS.LocMap.RegRes("common/popups_1.js","PopupBlockedWarning","Your browser is blocking pop-ups, and they need to be allowed before working in your course. \nPlease disable your pop-up blocker now.");
+LOCNS.LocMap.RegRes("resources","Cancel","Cancel");
+LOCNS.LocMap.RegRes("resources","OK","OK");
+//]]>
+</script>
+
+<script src="./ZSCORE_files/ScriptResource.axd" type="text/javascript"></script>
+<script src="./ZSCORE_files/ScriptResource(1).axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var PageMethods = function() {
+PageMethods.initializeBase(this);
+this._timeout = 0;
+this._userContext = null;
+this._succeeded = null;
+this._failed = null;
+}
+PageMethods.prototype = {
+_get_path:function() {
+ var p = this.get_path();
+ if (p) return p;
+ else return PageMethods._staticInstance.get_path();},
+GetMediaServerInfo:function(assignmentId,qId,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'GetMediaServerInfo',false,{assignmentId:assignmentId,qId:qId},succeededCallback,failedCallback,userContext); },
+RecordMedia:function(homeworkID,item,courseID,bbUserID,isKnewtonTransferEnabled,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'RecordMedia',false,{homeworkID:homeworkID,item:item,courseID:courseID,bbUserID:bbUserID,isKnewtonTransferEnabled:isKnewtonTransferEnabled},succeededCallback,failedCallback,userContext); }}
+PageMethods.registerClass('PageMethods',Sys.Net.WebServiceProxy);
+PageMethods._staticInstance = new PageMethods();
+PageMethods.set_path = function(value) { PageMethods._staticInstance.set_path(value); }
+PageMethods.get_path = function() { return PageMethods._staticInstance.get_path(); }
+PageMethods.set_timeout = function(value) { PageMethods._staticInstance.set_timeout(value); }
+PageMethods.get_timeout = function() { return PageMethods._staticInstance.get_timeout(); }
+PageMethods.set_defaultUserContext = function(value) { PageMethods._staticInstance.set_defaultUserContext(value); }
+PageMethods.get_defaultUserContext = function() { return PageMethods._staticInstance.get_defaultUserContext(); }
+PageMethods.set_defaultSucceededCallback = function(value) { PageMethods._staticInstance.set_defaultSucceededCallback(value); }
+PageMethods.get_defaultSucceededCallback = function() { return PageMethods._staticInstance.get_defaultSucceededCallback(); }
+PageMethods.set_defaultFailedCallback = function(value) { PageMethods._staticInstance.set_defaultFailedCallback(value); }
+PageMethods.get_defaultFailedCallback = function() { return PageMethods._staticInstance.get_defaultFailedCallback(); }
+PageMethods.set_enableJsonp = function(value) { PageMethods._staticInstance.set_enableJsonp(value); }
+PageMethods.get_enableJsonp = function() { return PageMethods._staticInstance.get_enableJsonp(); }
+PageMethods.set_jsonpCallbackParameter = function(value) { PageMethods._staticInstance.set_jsonpCallbackParameter(value); }
+PageMethods.get_jsonpCallbackParameter = function() { return PageMethods._staticInstance.get_jsonpCallbackParameter(); }
+PageMethods.set_path("PlayerHomework.aspx");
+PageMethods.GetMediaServerInfo= function(assignmentId,qId,onSuccess,onFailed,userContext) {PageMethods._staticInstance.GetMediaServerInfo(assignmentId,qId,onSuccess,onFailed,userContext); }
+PageMethods.RecordMedia= function(homeworkID,item,courseID,bbUserID,isKnewtonTransferEnabled,onSuccess,onFailed,userContext) {PageMethods._staticInstance.RecordMedia(homeworkID,item,courseID,bbUserID,isKnewtonTransferEnabled,onSuccess,onFailed,userContext); }
+//]]>
+</script>
+
+		
+
+<script language="javascript">
+    var initialjsclockServerDateTime = "Sun, 26 Mar 2023 17:31:49";
+    var productThemeClass = 'math';
+    function setupClock()
+    {
+        jsclockServerDateTime = "Sun, 26 Mar 2023 17:31:49";
+        jsclockElementId = "toptime";
+        jsclockConstantUpdate = true;
+        isSelfStudyCourse = "False";
+  
+        // check if it's there just in case we're not on IntelliPage
+        if (typeof(initClock)=="function")
+            initClock();
+    }
+    
+    wizardUrl = "../BrowserCheck/BrowserCheck.aspx";
+    supportLink = "../support/contactus_stu.htm";
+    
+</script>    
+        
+       
+    
+        
+
+         <div>
+             
+              <div class="xlbootstrap3">
+                              <nav id="mainTopNavContainer" class="navbar navbar-inverse navbar-fixed-top homework" role="banner" aria-label="Course">
+			                    <div class="container-fluid">
+				                    <div class="course-title" style="width: 55%;word-wrap: break-word !important;white-space:revert;">
+					                    MAT 210 Statistics 886 52 Gallen
+				                    </div>
+
+				                    <div class="toggle-right-menu">
+					                    <a class="collapsed navbar-link" data-toggle="collapse" role="button" href="javascript:void(0);" data-target="#rightMenu" aria-expanded="false" aria-haspopup="true" aria-controls="mainTopNav">
+						                    <span class="sr-only">Toggle navigation</span>
+						                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+					                    </a>
+				                    </div>
+
+				                    <div class="collapse navbar-collapse" id="rightMenu">
+					                    <!-- Script that populates #mainTopNav is disabled for prototype. See /bundle/menunavgation.js. -->
+					                    <div id="mainTopNav" class="nav navbar-nav navbar-right new-design-top-nav"><div id="NavigationLinkKey_49"><span class="navbar-text">Emaddeen Amm <i class="fa fa-user" aria-hidden="true"></i></span></div><div id="NavigationLinkKey_61" class="divider">|</div><div id="NavigationLinkKey_55"><span id="toptime" class="navbar-text navbar-text-time" title="undefined">03/26/23 5:32 PM</span></div><div id="NavigationLinkKey_43" class="helpLink"><a class="playerhelptopic" aria-label="Help" aria-describedby="txtHelpDesc" href="javascript:doHelp(&#39;mxl_player_test_html5&#39;);">
+                                            <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                            <span class="sr-only" id="txtHelpDesc">Opens in a new window</span></a></div></div>
+				                    </div>
+
+			                    </div>
+		                    </nav><!-- #mainTopNavContainer-->
+                  </div>
+        <div class="main-content-container" id="main-body-container" style="min-height:100%;height:100%;">
+            <div class="main-row" id="dvMainRow" style="background-color: white">
+            <div id="ctl00_ctl00_InsideForm_playerContentHolder">
+            <div class="xlbootstrap3">
+                
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl00$InsideForm$MasterContent$ScriptManager1', 'aspnetForm', [], [], [], 90, 'ctl00$ctl00');
+//]]>
+</script>
+
+
+    
+        
+
+<div id="ctl00_ctl00_InsideForm_MasterContent_pnlPlayers">
+	
+
+<table width="100%">
+
+
+<tbody><tr><td>
+    
+    
+    
+    
+<iframe src="./ZSCORE_files/PlayerLaunch.html" id="ctl00_ctl00_InsideForm_MasterContent_PlayerHtml5" width="100%" webkitallowfullscreen="true" title="Question Viewer" height="675" mozallowfullscreen="true" scrolling="no" style="border:none; box-sizing:border-box" allowfullscreen="true"></iframe>
+
+
+
+</td></tr>
+</tbody></table>
+
+
+</div>
+
+
+                </div>
+        </div>
+           
+            
+
+
+<iframe src="./ZSCORE_files/KeepSession.html" id="ctl00_ctl00_InsideForm_PostContent_FrameSessionKeeper" height="1" style="visibility:hidden; position:absolute; bottom:0px;" name="appletevent"></iframe>
+
+                </div>
+            </div>
+
+
+        <div id="mainFooterContainer" class="row" style="display:none;">
+            <div class="col-xs-12">
+                <div id="masterfooter">
+                    This course (MAT 210 Statistics 886 52 Gallen) is based on Sullivan: Statistics: Informed Decisions Using Data, 6e<br><a href="javascript:popupWindow(&#39;support&#39;, &#39;https://pi.pearsoned.com/v1/piapi/policies/static/html/PearsonEULA.html&#39;, { Width: 1200, Height: 750, AutoClose: false, Toolbar: true, Location: true });void(0);">Terms of Use</a>|<a href="javascript:popupWindow(&#39;support&#39;, &#39;https://pi.pearsoned.com/v1/piapi/policies/static/html/PearsonPrivacyPolicy.html&#39;, { Width: 1200, Height: 750, AutoClose: false, Toolbar: true, Location: true });void(0);">Privacy Policy</a>|Copyright © 2023 Pearson Education Inc. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+        
+	<script src="./ZSCORE_files/jquery.js.download"></script>
+
+	<script src="./ZSCORE_files/jquery_plugins.js.download"></script>
+
+	<script src="./ZSCORE_files/strutils_delta_popups_navstate.js.download"></script>
+
+       
+        <script type="text/javascript">
+            var gaaccount = "UA-48773414-1";
+            var environment = "highered";
+    </script>
+	
+	 <script language="javascript" type="text/javascript">
+        var myNavParams = myNavParams || {
+            productId: 3,
+            userId: 60591960,
+            userName:  "Emaddeen Amm",
+            authSystemId: 190,
+            courseId: 0,
+            bookId: 0,
+            backdoor: 'False',
+            nextgen: 'False',
+            lockdownbrowsertype: 'None',
+            currentCulture: "en-US",
+            showBanner: true,
+            showLeftNavigation: false,
+            leftNavState: 'False',
+            navigationVersion: "v1",
+            userRole: "Student",
+            hasCustomBanner : "False",
+            pageLinkMode : "Popup",
+            isCC : true,
+            showPlayerHeader : true,
+            showBrowserCheck: false,
+            IsSelfStudy: false,
+            institutionKeyId: "5332",
+            school: "dcccmlp",
+            authSystemPartnerId: "20",
+            bookCode: "sst6e",
+            disciplineID: "1",
+            userOrigin: 'CourseCompass',
+            authsystemtypeId: 'Tpi',
+            supportNewNavigation: true,
+            isMyFoundations: false,
+            IPv4: '207.172.118.54',
+            IPv6: 'NA',
+            SessionID: '5g4tv32rfdpi55zmzqttzdfs',
+            ProductName: 'MyLab Math',
+            ProductPlatformCode: '3PLDirect',
+            TransactionLocalDate: '2023-03-26T17:31:49.832',
+            IsTelemetryEnabled: 'True',
+            NoNameScreenReaderText: ""
+
+        };
+    </script>
+        	
+		<script src="./ZSCORE_files/json2.js.download"></script>
+
+		<script src="./ZSCORE_files/bootstrap3.js.download"></script>
+
+		<script src="./ZSCORE_files/menunavigation.js.download"></script>
+
+       
+      
+
+          
+	    
+    
+<script language="javascript" src="./ZSCORE_files/autosizepopup.js.download"></script>
+<script type="text/javascript" src="./ZSCORE_files/qsutils_1.js.download"></script>
+      <script language="javascript">
+        
+
+      </script>
+<script language="javascript">
+
+    
+    
+    //    var pageResourcePath = "student/playerhomework.aspx"; 
+    //    LOCNS.LocMap.RegRes(pageResourcePath, "PleaseWaitUntilMediaClose", "Please wait until the current media window closes, then click on the media item again.");
+    //    LOCNS.LocMap.RegRes(pageResourcePath, "ErrorScoringMediaItem", "An unexpected error occurred. Please click on the media item again.");
+
+    
+        $(document).ready(function () {
+            
+            $("#mainTopNavContainer").addClass("homework");
+        });
+     
+        $(document).ready(function () {
+            
+            $('#mainTopNav').find('#NavigationLinkKey_43').appendTo('#mainTopNav');
+            
+            $("#NavigationLinkKey_43").empty().removeClass().addClass("helpLink").html(`<a class="playerhelptopic" aria-label="Help" aria-describedby="txtHelpDesc"
+                                            href="javascript:doHelp('mxl_player_test_html5');">
+                                            <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                            <span class="sr-only" id="txtHelpDesc">Opens in a new window</span></a>`);
+        });
+    
+    var isEcon = false;
+    var disableCleanup = false;
+    var questionId = 1;
+    var reviewData;
+    var homeworkName = "Section 7.2";
+    var usesPlayerPopup = false;
+    var homeworkId = 644139138;
+    var vpath = "student/playerhomework.aspx";
+    var ccTarget = "doassignments";
+    var openedInPopup = false;
+
+     
+    AutoSize_MinHeight = 750;
+        
+
+    function getAssignmentName()
+    {
+        return homeworkName;
+    }
+    function getReviewData() {
+        return reviewData;
+    }
+  
+    function _getReviewData() {
+        
+        var player = getPlayer(); //document.getElementById('ctl00_ctl00_InsideForm_MasterContent_PlayerNextGen');
+        return player.getReviewData();
+        
+    }
+  
+    function goOverview() {
+
+        var params = "homeworkId=644139138";
+      
+        
+
+        params += "&cId=" + 7306144;
+        
+        var url = "OverviewHomework.aspx?popup=yes&" + params;
+    
+        var opts = {Width:800};
+        
+        popupWindow("overview",url,opts);
+    
+    }
+  
+    function checkMGMathIntegratedClose()
+    {
+        
+        return false;
+    }
+  
+    function goCloseReturn() {
+        if (usesPlayerPopup || (ccTarget == 'specificassignment' && window.opener))
+        {
+            if (!checkMGMathIntegratedClose())
+                window.close();
+        }
+        else
+        {
+            var url = "DoAssignments.aspx";
+            
+            url = "https://mylab.pearson.com/Student/DoAssignments.aspx?canvas_enrollment_state=active";
+            
+            document.location = url;
+        }
+    }
+  
+    function goCloseReturnOld() {
+        var params = "homeworkId=644139138";
+        params += "&cId=" + 7306144;
+
+        
+        var url = "OverviewHomework.aspx?" + params;
+    
+        document.location = url;
+    }
+  
+    var url = ''; // CA force url to have file scope since we need it across AJAX-related calls
+    var mediaQuestionID = -1;     // CA same for question ID
+
+    //XL-6252
+    var mediaPopupName = '';
+
+    function goLearningAide(type,loc) {
+        mediaQuestionID = loc;
+        var hwId = 644139138;
+
+        var params = "type="+type+"&loc="+escape(loc)+"&assignmentId=" + hwId + "&flush=yes";
+        
+        params = params + "&record=1";
+        
+        params += "&cId=" + 7306144;
+
+        url = "https://mylab.pearson.com/Student/MediaPopup.aspx?" + params;
+        var popupName = type;
+        if (popupName!= 'statcrunch' && popupName != 'statexplore') {
+            popupName = "LA_" + popupName;
+        }
+
+        
+        if (type == "assignedmedia_pg") {
+
+            var toolLaunchMode = "do";
+            
+
+            params = "?mode=" + toolLaunchMode + "&questionIndex=" + loc + "&assignmentId=" + hwId;
+            
+
+            url = "../info/partnergradedmedia.aspx" + params;
+        }
+
+        if (type == "assignedmedia" || type == "assignedmedia_pg")      
+        {
+            popupName = "assignedmedia";
+
+            var existingPopup = getPopup(popupName);
+
+            
+
+            if (existingPopup != null)
+            {
+                
+                
+
+                try {
+                    if (!existingPopup.isDurationUpdateInProgress || existingPopup.isDurationUpdateInProgress()) {
+                        alert(LOCNS.LocMap.GetRes(vpath, "PleaseWaitUntilMediaClose"));
+                        return false;
+                    }
+                } catch (error) {
+                }
+            
+                
+                PageMethods.GetMediaServerInfo(hwId, loc, GetMediaInfoReturn, GetMediaInfoTimeoutOrError, GetMediaInfoTimeoutOrError, GetMediaInfoTimeoutOrError);
+                return false;
+            }
+        }
+
+        //XL-6252
+        
+            mediaPopupName = popupName;
+            PageMethods.GetMediaServerInfo(hwId, loc, LoadMediaPopupWithMediaUrlSecureCheck);
+            return false;
+        
+
+        //popupWindow(popupName, url, { Width:1200, Height:700});
+    }
+    
+    function GetMediaInfoTimeoutOrError(request, context)
+    {
+        
+
+        popupName = "assignedmedia";
+        
+        var existingPopup = getPopup(popupName);
+        if (existingPopup != null)
+            existingPopup.updateDurationAndClose();
+
+        popupWindow(popupName,url);
+
+    }
+
+    function LoadMediaPopupWithMediaUrlSecureCheck(result, response, context) {
+
+
+        var serverInfoArray = result.split('|');
+        var serverUrl = serverInfoArray[0];
+        var contentUrl = serverInfoArray[1];
+
+
+        var iframeSourceUrl = serverUrl + contentUrl;
+
+        if (iframeSourceUrl.indexOf("https") != -1)
+        {
+              //if the iframe src url is secured, we need to make the media popup window url secured
+              var currentMediaPopUpUrl = url;
+              if (currentMediaPopUpUrl.indexOf("https") == -1 && location.port == "")
+              {
+                            url = currentMediaPopUpUrl.replace("http", "https");
+              }
+         }
+
+            popupWindow(mediaPopupName, url, { Width: 1200, Height: 700 });
+    }
+
+    function GetMediaInfoReturn(result, response, context)
+    {
+        
+        var serverInfoArray = result.split('|');
+        var serverUrl = serverInfoArray[0];
+        var contentUrl = serverInfoArray[1];
+    
+        popupName = "assignedmedia";
+
+        var existingPopup = getPopup(popupName);
+        if (existingPopup != null)// CA NOTE: window.focus() does NOT work on Chrome as of 2010-11-05. See http://stackoverflow.com/questions/2758608 for more details.
+        {
+            
+
+            try {
+                if (existingPopup.isMediaUrlEqual(serverUrl, contentUrl)) {
+                    // CA NOTE: window.focus() does NOT work on Chrome as of 2010-11-05. See http://stackoverflow.com/questions/2758608 for more details.
+                    existingPopup.focus();
+                    if (existingPopup.getQuestionID() != mediaQuestionID) {
+                        PageMethods.RecordMedia(homeworkId,questionId,7306144,"aa14ad57b7d275b77e8ca558eca9ca0829bd2a82_canvas_dcccmlp",false, RecordMediaReturn, RecordMediaError, RecordMediaError, RecordMediaError);
+                    }
+                    return;
+                } else
+                    existingPopup.updateDurationAndClose();
+            } catch (error) {
+            }
+        }
+
+        popupWindow(popupName,url);
+
+    }
+  
+    
+    function RecordMediaReturn(result, response, context) {
+    
+        return true;
+    }
+  
+          
+    function RecordMediaError(request, context) 
+    {
+        alert(LOCNS.LocMap.GetRes(vpath, "ErrorScoringMediaItem"));
+        return false;
+    }
+  
+    function closeLearningAides() {
+        var  pWindows = popupWindows;
+        for(var o in pWindows) {
+            if (o.substr(0,3) == "LA_") {
+                closePopup(o);
+            }
+        }
+    }
+  
+    function goMediaExercise(questionId) 
+    {
+         
+    }
+  
+    function goExercise(exId) {
+        window.focus();
+  
+        
+        disableCleanup = true;
+        var loc = replaceParam(location,"questionId",exId);
+        
+        location.replace(loc);
+        //      frames["appletcommand"].location.replace("AppletCommand.aspx?command=LoadQuestion&intParam1="+exId);
+        //      closePopup("overview");
+        
+    }
+
+    function goHomeworkAndTest() {
+  
+        
+        location = "DoAssignments.aspx?view=homework";
+    }
+  
+    function goResults() {
+        
+        location = "https://mylab.pearson.com/Student/DoAssignments.aspx?canvas_enrollment_state=active";
+        
+    }
+
+    
+
+    function getHtml5Player() {
+        
+        return $("#ctl00_ctl00_InsideForm_MasterContent_PlayerHtml5")[0];
+        
+    }
+
+    function getPlayer() {
+        
+        return null; //TODO- not sure how to handle this right now.
+        
+    }
+    
+    function getPrintHeader() {
+
+        var tdiff = 0; //***TEMP****
+        var dNow = new Date();
+        var curDate=new Date(dNow.valueOf()-tdiff);
+        var locDatePattern = "MM/dd/yy";
+        var locTimePattern = "h:mm tt";
+        var studentName = "Emaddeen Amm";
+        var instructorName =  "Todd A Gallen";
+        var courseTitle = "MAT 210 Statistics 886 52 Gallen";
+        var bookTitle = "Sullivan: Statistics: Informed Decisions Using Data, 6e";
+
+        buf = new Array();
+        buf.push('<rvxml>');
+        buf.push('<style>');
+        buf.push('<font name="normal" fontname="Times New Roman" size="10" />');
+        buf.push('<font name="bold" fontname="Times New Roman" size="10" bold="1" />');
+        buf.push('<para name="Left" />');
+        buf.push('</style>');
+        buf.push('<document stringtags="0">');
+        buf.push('<table rows="1" cols="3" bordercolor="clGray" borderstyle="color" borderwidth="1" cellborderstyle="color" color="clNone">');
+        buf.push('<row><cell width="-33">');
+
+        
+        buf.push('<text textstyle="bold">' + "Student" + ':</text>');
+        buf.push('<text br="0"> '+HTMLEncode(studentName)+'</text>');
+        buf.push('<text textstyle="bold">' + "Date" + ':</text>');
+        buf.push('<text br="0"> '+HTMLEncode(formatLocalDate(curDate,locDatePattern))+'</text>');
+        buf.push('<text textstyle="bold">' + "Time" + ':</text>');
+        buf.push('<text br="0"> '+HTMLEncode(formatLocalDate(curDate,locTimePattern))+'</text>');
+        
+        buf.push('</cell>');
+        buf.push('<cell width="-33">');
+        buf.push('<text textstyle="bold">' + "Instructor" + ':</text>');
+        buf.push('<text br="0"> '+HTMLEncode(instructorName)+'</text>');
+        buf.push('<text textstyle="bold">' + "Course" + ':</text>');
+        buf.push('<text br="0"> '+HTMLEncode(courseTitle)+'</text>');
+        buf.push('<text textstyle="bold">' + "Book" + ':</text>');
+        buf.push('<text br="0"> '+HTMLEncode(bookTitle)+'</text>');
+        buf.push('</cell>');
+        buf.push('<cell width="-33">');
+        buf.push('<text textstyle="bold">' + "Assignment" + ':</text>');
+        buf.push('<text br="0"> '+HTMLEncode(homeworkName)+'</text>');
+        buf.push('</cell>');
+        buf.push('</row>');
+        buf.push('</table>');
+        buf.push('</document>');
+        buf.push('</rvxml>');
+
+        return buf.join('\n');
+    }
+
+    function updatePrintHeader() {
+
+        var hdr = getPrintHeader();
+
+        
+        getPlayer().setPrintHeader(hdr);
+        
+    }
+
+    var printPreviewFlag = false;
+      
+
+    function doPrint(preview) {
+        printPreviewFlag = preview;
+        
+        var url = "printhomework.aspx";
+        popupWindow("printhomework",url,{Width:380});
+        
+    }
+
+    function printProblem(isPopup) {
+
+        updatePrintHeader();
+      
+        var p = document.Player;
+        
+        var ex = getPlayer().getExerciseDisplayName();
+        
+
+        itext = "ItemText="+ex+"."
+      
+        if (printPreviewFlag) {
+            itext = "preview," + itext;
+        }
+        
+        if (isPopup)
+            getPlayer().printPopup(itext);
+        else
+            getPlayer().printProblem(itext);
+    }
+    
+    //Do this in asynchronously so dialog can go away.
+    function printHomework() {
+        setTimeout("_printHomework()",50);
+    }
+    
+    function _printHomework() {
+        var  opts;
+        opts = "preview";
+        updatePrintHeader();
+        getPlayer().printFull(opts);
+    }
+    
+        
+
+    function submitHomework() {      
+        
+        playerSubmitted = true;
+        playerAnySubmitDone = true;
+        closeMediaPopup();
+
+       
+        if(window.attachEvent) { 
+            window.detachEvent("onunload",closeMediaPopup); 
+        } else if(window.addEventListener) { 
+            window.removeEventListener("unload",closeMediaPopup, false); 
+        }        
+        
+        doSaveResult("submithomework");
+        
+    }
+    
+    function closeMediaPopup()
+    {
+        var popup = getPopup("assignedmedia");
+        if (popup != null) {
+            try {
+                popup.updateDurationAndClose();
+            } catch (error) {
+            }
+        }
+
+        return true;
+    }
+    
+    function showSaveNoEffectAlert() {
+        alert("This button has no effect during preview mode.");
+    }
+
+    
+    function doAskMyInstructor() 
+    {
+    
+            
+        var ex = "";
+       
+        
+       
+        //Store current review data in javascript variable that way if the problem changes
+        //before the popup requests it, we'll get the correct data.
+        reviewData = _getReviewData();
+       
+        var params = "playermode=reviewhomework&"+
+//          "courseId=7306144&bookId=98118&userId=60591960&" +
+            "homeworkResultId=1798860768" +
+            "&homeworkQuestionId=" + ex;
+        var url = "AskMyInstructor.aspx?" + params;
+       
+        popupWindow("askmyinstructor",url,{Width:680});
+               
+    }
+    
+
+
+    function getPlayer() 
+    {
+        
+        return null; //NOt sure how to handle this.
+        
+    }
+    
+    
+    
+    function commentRead(id)
+    {
+        var player = getPlayer();
+        if (player) {
+            player.commentRead(id);
+        }
+    }
+
+    function instructorTipRead(id)
+    {
+        var player = getPlayer();
+        if (player) {
+            player.instructorTipRead(id);
+        }
+    }
+    
+    function doViewComment()
+    {
+        var player = getPlayer();
+        if (player) {
+            var ex = player.getCurQuestionId();
+
+            var params = 
+                "homeworkId=644139138" +
+                    "&homeworkquestionId=" + ex;
+                
+            
+ 
+            var url = "../Student/ViewInstructorComment.aspx?" + params;
+            popupWindow("comment",url,{Width:500});
+        }
+    }
+    
+    function doViewInstructorTip()
+    {
+        var player = getPlayer();
+        if (player) {
+            var ex = player.getCurQuestionId();
+
+            var params = 
+                "homeworkId=644139138" +
+                    "&homeworkquestionId=" + ex;
+                
+            var url = "../Student/InstructorTipView.aspx?" + params;
+            popupWindow("viewinstructortip",url,{Width:500});
+        }
+    }
+
+
+    var showwork_window;
+
+    function doShowWork(playerparams)
+    {
+        var player = getPlayer();
+        if (player) {
+
+            if (showwork_window && !showwork_window.closed){
+                showwork_window.focus();
+            }
+            else 
+            {
+                var ex = player.getCurQuestion();
+
+                 
+
+                var showWorkData =  unescape(player.getShowWorkData());
+                if (showWorkData == "<showwork/>") showWorkData = "";
+                var match = /^<!\[CDATA\[(.*)]]>/.exec(showWorkData);
+                if (showWorkData == "" || (match && match[1])) {
+
+                    var postParams = {
+                        data: match && match[1] ? match[1] : "",
+                        cultureId: "",
+                        questionId: ex
+                    };
+
+                    
+
+                    var url = "ShowWorkEdit.aspx";
+                    showwork_window = postWindow("showwork", url, postParams, { Width: 840, Height: 600 });
+
+                    return;
+                }
+
+                
+                
+                var params = 
+                    "homeworkResultId=1798860768" +
+                        "&questionId=" + ex 
+                
+                
+
+
+                var url = "../Student/PlayerShowWork.aspx?maximize=1&"+params+playerparams;
+                showwork_window = popupWindow("showwork",url,{Width:840,Height:600});
+            }
+        }
+    }
+
+    function closeShowWork()
+    {
+        if (showwork_window && !showwork_window.closed) 
+        {
+            showwork_window.disableUnloadConfirmation();
+        }
+        closePopup("showwork");
+        showwork_window = null;
+    }
+
+    function getShowWorkData()
+    {
+        var player = getPlayer();
+        if (player) {
+            return player.getShowWorkData();
+        }
+    }
+
+    function setShowWorkData(data,isEmpty,questionId) {
+        var player = getPlayer();
+        if (player) {
+            player.setShowWorkData(data,isEmpty,questionId);
+        }
+    }
+
+    function setShowWorkClosed() {
+        var player = getPlayer();
+        if (player) {
+            player.setShowWorkRead();
+        }
+    }
+    
+    
+    function closeComment()  {
+        closePopup("comment");
+    }
+    
+    function closeInstructorTip() {
+        closePopup("viewinstructortip");
+    }
+
+
+    
+
+
+    function resultsPosted(time,result,item,isPenalized,penalizedScore) {        
+        var win = getPopup("overview");
+        if (win && win.updateHomeworkResults) {
+            win.updateHomeworkResults(item,time,result,isPenalized,penalizedScore);
+        }
+        if (usesPlayerPopup)
+        {
+            win = window.opener;
+            if (win && win.updateHomeworkResults) {
+                win.updateHomeworkResults(item,time,result,isPenalized,penalizedScore);
+            }
+        }
+    }
+        
+        
+    function problemLoaded() {
+        closeLearningAides();
+        closeComment();
+        closeInstructorTip();
+        closeShowWork();
+    }
+        
+    function problemClosed() {
+
+        closeShowWork();
+
+        
+        submitHomework();
+        
+    }        
+        
+    function doSaveResult(eventType,url)
+    {
+        playerDisableUnloadConfirmation = true; 
+        playerUnloadRequestDisable = true; //grid
+
+        params="?eventtype="+eventType;
+        params += "&homeworkid=644139138";
+        
+
+        if (eventType.toLowerCase() == "homeworkdue")
+        {
+             
+            targetUrl = "DoAssignments.aspx";
+             
+        }
+        else if (eventType.toLowerCase() == "submitgrades")
+        { 
+            targetUrl= "OverviewHomework.aspx?homeworkId=644139138&cId=7306144&fromPlayer=1&back=https%3a%2f%2fmylab.pearson.com%2fStudent%2fDoAssignments.aspx%3fcanvas_enrollment_state%3dactive";
+
+            
+            targetUrl = "https://mylab.pearson.com/Student/DoAssignments.aspx?canvas_enrollment_state=active";
+            
+        }
+
+        else
+        {
+            targetUrl= "OverviewHomework.aspx?homeworkId=644139138&cId=7306144&fromPlayer=1&back=https%3a%2f%2fmylab.pearson.com%2fStudent%2fDoAssignments.aspx%3fcanvas_enrollment_state%3dactive";
+        }
+
+        if (url)
+            targetUrl = url;
+
+        //Comment 18334 - New design for Player Save page
+        params += "&homeworkLabel="+escape('Homework')
+        params += "&tourl="+escape(targetUrl);
+
+        // This is getting us in trouble in CC where page comes up in a popup because there is an opener, but it's
+        // not our own so PlayerSave.aspx was failing the javascript with a security error.  Fixed by putting try/catch there
+        if (eventType.toLowerCase() == "submitgrades" || openedInPopup)
+        {
+            params += "&updateopener=1";    
+        }
+
+        window.location.replace("/Student/playersave.aspx"+params);
+    }
+
+    function homeworkDue() {
+        playerAnySubmitDone = true;
+        playerNumberAttempts = -1; // for foundations one attempt mode we will treat save for later as a full submit if it's the first attempt 
+        // assume out of time submit is save for later equivalent for one attempt
+        doSaveResult("homeworkDue");
+
+
+    }
+
+    function homeworkSaveForLater() {
+
+        
+
+        playerAnySubmitDone = true;
+        playerNumberAttempts = -1; // for foundations one attempt mode we will treat save for later as a full submit if it's the first attempt 
+        doSaveResult("homeworkSaveForLater");
+        
+    }
+
+    function homeworkOneAttemptSubmit() {
+        
+        playerAnySubmitDone = true;
+        playerOneAttemptSubmit = true; // update attemptstate to complete on flush for one attempt homework
+        playerNumberAttempts = -1; // for foundations one attempt mode we will treat save for later as a full submit if it's the first attempt 
+
+
+        //Postback will wind up closing window, but for integrations we need to update overview underneath.  This is a workaround to do that.
+        //The alternative would be to make a smart CloseMe.htm that run this prior to closing.
+        try {
+            if (window.opener && window.opener.overview_updateOneAttemptScore)
+                window.opener.overview_updateOneAttemptScore();
+        } catch (err)
+        {
+        }
+        doSaveResult("homeworkOneAttemptSubmit");
+        
+    }
+
+    function homeworkGradeClose() {
+        playerSubmitted = true;
+        playerAnySubmitDone = true;
+
+        closeMediaPopup();
+
+        if(window.attachEvent) { 
+            window.detachEvent("onunload",closeMediaPopup); 
+        } else if(window.addEventListener) { 
+            window.removeEventListener("unload",closeMediaPopup, false); 
+        }      
+        
+        doSaveResult("submitgrades");
+    }
+
+
+       
+    function helpClicked(subtopic) {
+        var topic = "mxl_player_hw";
+        if (subtopic)
+            topic = topic + "_" + subtopic;
+        doHelp(topic);
+    }
+
+    function graphHelpClicked() {
+        doHelp("grapher");
+    }
+        
+    function emailGraph(graphName) {    
+        var url = "../Info/EmailGraph.aspx?chapterid=-1&sid=-1";
+        url += "&filename=" + escape(graphName);
+        popupWindow("email",url,{Width:950});
+    }
+        
+    function goStatCrunch(dataId,header) {
+        if (header)
+            ft = "true";
+        else
+            ft = "false";
+        var url = "/info/StatCrunchProxy.ashx" + "?dlim=comma&ft=" + ft +"&dataurl=" + escape('https://mylab.pearson.com/Info/GetPlayerFile.ashx' + "?dataId=" + dataId);
+        popupWindow("statcrunch_data",url,{Width:800, Height:600, AutoClose:false});
+    }
+        
+    function learningAidClicked(command,url,title) {
+        if (command == "mail") {
+            doAskMyInstructor();
+        } else if (command == "printpopup") {
+            printProblem(true);
+        } else if (command == "print") {
+            doPrint(false);
+            //doPrintPlayer(false);
+        } else if (command == "printpreview" || command == "print_preview" || command == "printhomework") {
+            //doPrintPlayer(true);
+        } else if (command == "close") {
+            goCloseReturn();
+        } else if (command == "addcomment") {
+            doAddComment();
+        } else if (command == "viewcomment") {
+            doViewComment();
+        } else if (command == "suggestionbox") {
+            doEmailPublisher();
+        } else if (command == "viewinstructortip") {
+            doViewInstructorTip();
+        } else if (command == "connecttotutor") {
+            doConnectToTutor();
+        } else if (command == "showwork") {
+            setTimeout(function() {
+                doShowWork(url);
+            },250);
+        } else {
+            if (url)
+                goLearningAide(command,url);
+        }
+    }
+       
+    function homeworkAccessDenied() {
+        playerDisableUnloadConfirmation = true;
+        __doPostBack("__Page","accessdenied");        
+        //goCloseReturn();
+    }
+       
+    function highStakesAccessDenied() {
+        playerDisableUnloadConfirmation = true;
+        __doPostBack("__Page","accessdenied_highstakes");        
+    }
+        
+    
+
+</script>
+
+ 
+
+ <script type="text/javascript">
+
+     function skipToContent() {
+         var p = getHtml5Player();
+         var msg = {'@type':'SkipNavigation'};
+         if (p && p.contentWindow.frames.length > 0) {
+             p.contentWindow.frames[0].window.postMessage(JSON.stringify(msg), "*");
+         } else {
+             location.href = "#content";
+         }
+     }
+
+     var Hide_Scrollbars = true;
+     $(function () {
+
+         var playerLoaded = false;
+
+         function handleMediaNodeResult(mediaNodeResult) {
+             var p = getHtml5Player();
+             if (p && playerLoaded) {
+                 p.contentWindow.postMessage(JSON.stringify(mediaNodeResult), "*");
+             }
+         }
+
+         $(window).on("message", function (e) {
+
+             //TODO - add in security check for source of message at some point
+             //if (e.originalEvent.source !== ???)
+             //    return;
+
+             //Security check passed so process the message
+             var message = $.parseJSON(e.originalEvent.data);
+             var args = message.arguments || {};
+             //Assume jsonld type message
+             switch (message["@type"]) {
+             case "Close":
+                 var func = problemClosed;
+                 if (args.pastDue)
+                     func = homeworkDue;
+                 else if (args.saveForLater)
+                     func = homeworkSaveForLater;
+                 else if (args.oneAttemptSubmit)
+                     func = homeworkOneAttemptSubmit;
+                 else if (args.error) {
+                     switch (args.error) {
+                         case "ERROR:AUTHFAILED":
+                             func = homeworkAccessDenied;
+                             break;
+                         case "ERROR:HIGHSTAKES":
+                             func = highStakesAccessDenied;
+                             break;
+                         case "ERROR:GENERIC":
+                             func = goCloseReturn;
+                     }
+                 }
+
+                 //reload the parent window when close the popup player
+                 if (usesPlayerPopup && window.opener && window.opener.updateHomeworkResults) {
+                     window.opener.location.reload();
+                 }
+                 setTimeout(func, 10);
+                 break;
+             case "PlayerReady":
+                 playerLoaded = true;
+                 break;
+             case "AssignedMediaClicked":
+                 var mtype = message.partnerGraded ? "assignedmedia_pg" : "assignedmedia";
+                 goLearningAide(mtype, message.mediaInfo.questionId);
+                 break;
+             case "MediaNodeResult":
+                 handleMediaNodeResult(message);
+                 break;
+             case "NodeResultResponse":
+                 if (usesPlayerPopup && window.opener && window.opener.updateHomeworkResults) {
+                     window.opener.popupAutoClose["player"] = false;
+                     //reloads the homeworkoverview page for each question and impacting site performance
+                     //commenting the reload line below and adding the reload while closing the popup player window
+                     //window.opener.location.reload();
+                     //XL-11886
+                     if (window.opener && window.opener.changeStatusIcon)
+                        window.opener.changeStatusIcon(message.currentQuestion.questionId, message.currentQuestion.score);
+                 }
+                 break;
+             default:
+                 // alert("unsupported message from html5 player:" + message["@type"]);
+
+             }
+         });
+     });
+
+ </script>
+    
+
+
+<script language="javascript">
+    
+    // CA if not in preview mode, add media handling logic
+        
+    if(window.attachEvent) { 
+        window.attachEvent("onunload",closeMediaPopup); 
+    } else if(window.addEventListener) { 
+        window.addEventListener("unload",closeMediaPopup, false); 
+    }        
+    
+
+
+    //$(function() {
+    //    $('body').addClass("playerpractice");
+    //});
+
+</script>
+
+
+        
+
+        <script type="text/javascript">
+
+            setupClock();
+            var navigation_key;
+            setupScrollbarFix();
+            //fixScrollbars();
+        </script>
+    <!-- Hide the address bar whenever we can (mostly iPhones) -->
+		<script type="text/javascript">
+
+            var currentMaster = "playermaster";
+            var navigationData = {"TopNavigation":[{"Key":49,"NameResourceKey":"USERNAME","TooltipResourceKey":"USERNAME","Name":"aa14ad57b7d275b77e8ca558eca9ca0829bd2a82_canvas_dcccmlp","Url":"#","Tooltip":"aa14ad57b7d275b77e8ca558eca9ca0829bd2a82_canvas_dcccmlp","SubMenuData":[],"IsHeader":false,"IsSeparator":false,"Order":0,"ImageUrl":null,"AlternateNameResourceKey":null,"AlternateText":null},{"Key":61,"NameResourceKey":"#","TooltipResourceKey":"#","Name":null,"Url":null,"Tooltip":null,"SubMenuData":null,"IsHeader":false,"IsSeparator":true,"Order":0,"ImageUrl":null,"AlternateNameResourceKey":null,"AlternateText":null},{"Key":55,"NameResourceKey":"#","TooltipResourceKey":"#","Name":"03/26/2023 17:31:49","Url":null,"Tooltip":"03/26/2023 17:31:49","SubMenuData":null,"IsHeader":false,"IsSeparator":false,"Order":0,"ImageUrl":null,"AlternateNameResourceKey":null,"AlternateText":null},{"Key":43,"NameResourceKey":"Master.Help","TooltipResourceKey":"Master.Help","Name":"Help","Url":"","Tooltip":"Help","SubMenuData":[{"Key":44,"NameResourceKey":"Master.Help","TooltipResourceKey":"Master.Help","Name":"Help","Url":"#","Tooltip":"Help","SubMenuData":null,"IsHeader":false,"IsSeparator":false,"Order":0,"ImageUrl":null,"AlternateNameResourceKey":null,"AlternateText":null},{"Key":57,"NameResourceKey":"Master.ProductSupport","TooltipResourceKey":"Master.ProductSupport","Name":"MyLab Math Support","Url":"#","Tooltip":"MyLab Math Support","SubMenuData":null,"IsHeader":false,"IsSeparator":false,"Order":0,"ImageUrl":null,"AlternateNameResourceKey":null,"AlternateText":null}],"IsHeader":false,"IsSeparator":false,"Order":0,"ImageUrl":"images/icon_helptop_school.gif","AlternateNameResourceKey":null,"AlternateText":null}],"LeftNavigation":[],"ProductHeaderInfo":{"Key":56,"NameResourceKey":"","TooltipResourceKey":"","Name":"MyLab Math","Url":null,"Tooltip":null,"SubMenuData":null,"IsHeader":false,"IsSeparator":false,"Order":0,"ImageUrl":"/support/customheader/product_mml/newtoplogo.svg","AlternateNameResourceKey":null,"AlternateText":null}};
+
+            if (window.addEventListener) {
+                window.addEventListener("load", function() {
+                    setTimeout(function() {
+                        //Hide the address bar.
+                        window.scrollTo(0, 1);
+                    }, 0);
+                });
+            } 
+
+            // On dropdown open
+            $(document).on('shown.bs.dropdown', function(event) {
+                var dropdown = $(event.target);
+		        
+                // Set aria-expanded to true
+                dropdown.find('.dropdown-toggle').attr('aria-expanded', true);
+                    
+                // Set focus on the first link in the dropdown
+                setTimeout(function() {
+                    dropdown.find('.dropdown-menu li:first-child a').focus(); //focus to the first child in dropdown
+                }, 10);
+            });
+
+            // On dropdown close
+            $(document).on('hidden.bs.dropdown', function(event) {
+                var dropdown = $(event.target);
+		       
+                // Set aria-expanded to false        
+                dropdown.find('.dropdown-toggle').attr('aria-expanded', false);
+    
+                // Set focus back to dropdown toggle
+                dropdown.find('.dropdown-toggle').focus();
+            }); 
+
+        </script>
+
+
+    <script language="javascript">
+        //setupClock();
+        $(function() {
+            $('#Body').attr('class', productThemeClass);
+        });
+    </script>
+    
+    
+    <script type="text/javascript" src="./ZSCORE_files/GoogleAnalytics.js.download"></script>
+    
+
+   
+	
+
+<script type="text/javascript">
+//<![CDATA[
+resizePlayer('ctl00_ctl00_InsideForm_MasterContent_PlayerHtml5');
+
+            var playerOneAttemptSubmit = false;
+            var playerAnySubmitDone = false;
+            var playerNumberAttempts = -1;
+            var playerUnloadUrl = 'Service/PlayerUnload.ashx?mode=homework&homeworkId=644139138&homeworkResultId=1798860768&userId=60591960&aid=190&cId=7306144&ikid=5332';
+            var playerUnloadEventKey;
+            var playerUnloadRequestDisable = false;
+            var playerSubmitted = false;
+
+            function playerUnload() {
+              if (! playerUnloadRequestDisable) {
+            if (!playerSubmitted) playerUnloadUrl+= '&sendInProgressOutcome=yes';if (playerAnySubmitDone) playerUnloadUrl += '&anySubmitDone=yes';
+if (playerOneAttemptSubmit) playerUnloadUrl += '&oneAttemptSubmit=' + playerOneAttemptSubmit;
+if (playerNumberAttempts > -1) playerUnloadUrl += '&numberAttempts=' + playerNumberAttempts;
+
+              unloadRequestNew(BaseUrl + playerUnloadUrl,false);}}
+
+            function removePlayerUnloadHandler() {
+            if (window.removeEventListener)
+              window.removeEventListener('unload', playerUnloadEventKey, 'playerUnload');
+            else if (window.detachEvent)
+              window.detachEvent('onunload', playerUnload);
+            }
+                
+            if (window.addEventListener)
+              playerUnloadEventKey = window.addEventListener('unload', playerUnload, false);
+            else if (window.attachEvent)
+              window.attachEvent('onunload', playerUnload);
+            AdminActionMemberWarning = "The action you have taken will be applied to all the members in your group.  Are you sure you want to proceed?"; //]]>
+</script>
+</form><script type="text/javascript" id="PETracker-JS-SDK" src="./ZSCORE_files/tracker6.8.5.min.js.download"></script>
+<script type="text/javascript" id="">(function(){var a=google_tag_manager["GTM-5JX93LK"].macro(5);window.peTrackerObject=PETracker.init(a.trackerId,a.config);peTrackerObject.initVistInfo()})();</script><script type="text/javascript" id="">(function(){if(window.peTrackerObject&&google_tag_manager["GTM-5JX93LK"].macro(7)){google_tag_manager["GTM-5JX93LK"].macro(8)&&window.peTrackerObject.setProperty("loginSessionId","5g4tv32rfdpi55zmzqttzdfs");google_tag_manager["GTM-5JX93LK"].macro(9)&&window.peTrackerObject.setProperty("country",google_tag_manager["GTM-5JX93LK"].macro(10));var b=google_tag_manager["GTM-5JX93LK"].macro(36);if(b){switch("usertelemetry".toLocaleLowerCase()){case "usertelemetry":window.PETPageId||(window.peTrackerObject.generatePageId(),b.payload.pageVisitId=window.PETPageId);b.payload.gaClientId=b.payload.gaClientId||
+window.PETPageId;google_tag_manager["GTM-5JX93LK"].macro(37)!==window.PETPageId&&google_tag_manager["GTM-5JX93LK"].macro(38)&&window.peTrackerObject.setProperty("gaClientId","undefined");window.peTrackerObject.setProperty("personId","60591960");if(google_tag_manager["GTM-5JX93LK"].macro(39)&&google_tag_manager["GTM-5JX93LK"].macro(40)){var d=JSON.parse(localStorage.getItem("absdk-geolocation")||"{}");if("5g4tv32rfdpi55zmzqttzdfs"!==d.sessionId){window.peTrackerMyGeoFlag=!0;var a=google_tag_manager["GTM-5JX93LK"].macro(47);window.peTrackerObject.sendMyGeoEnvContext(a,function(c,
+f){!c&&window.peTrackerMyGeoFlag&&"NA"!==d.sessionId&&(window.peTrackerMyGeoFlag=!1,c={sessionId:trackerEvent.payload.loginSessionId,send:!0},localStorage.setItem("absdk-geolocation",JSON.stringify(c)))})}}a=google_tag_manager["GTM-5JX93LK"].macro(51).config;var e=window.peTrackerObject.UTILS.getTime();a={messageTypeCode:"UserTelemetryPageActivity",originatingSystemCode:"xl",namespaceCode:"Telemetry",messageVersion:a.telemetryPageActivityMessageVersion,personId:"60591960",environmentCode:a.environment,
+loginSessionId:"5g4tv32rfdpi55zmzqttzdfs",gaClientId:google_tag_manager["GTM-5JX93LK"].macro(52)||window.PETPageId,visitorId:peTrackerObject.UTILS.getVisitorId(),visitId:peTrackerObject.UTILS.getVisitId(),unixTimestamp:e.timestamp,applicationPlatformCode:"Web"};console.log(a);window.peTrackerObject.initTelemetry(a)}window.peTrackerObject.sendActivity(b.payload,b.config)}}})();</script><script type="text/javascript" id="">(function(){if(window.peTrackerObject){var peGtmBuiltInEvent="usertelemetry";var clientTime=window.peTrackerObject.UTILS.getTime();switch(peGtmBuiltInEvent){case "gtm.linkClick":window.peTrackerObject.saveTelemetryAction("event",{eventCategory:google_tag_manager["GTM-5JX93LK"].macro(74)||"Do Homework - Section 7.2"||window.location.href.substring(0,200),eventAction:"Do Homework - Section 7.2",eventLabel:google_tag_manager["GTM-5JX93LK"].macro(115)||"NA",eventValue:"NA",userLocalEventDt:clientTime.transactionLocalDt||transactionLocalDt,eventUnixTimestamp:clientTime.timestamp});
+break;case "gtm.click":var clicktype=google_tag_manager["GTM-5JX93LK"].macro(117);var tagtype=google_tag_manager["GTM-5JX93LK"].macro(119);if(clicktype)switch(clicktype.toLocaleLowerCase()){case "checkbox":window.peTrackerObject.saveTelemetryAction("event",{eventCategory:"TDX Player"||window.location.href.substring(0,200),eventAction:"Do Homework - Section 7.2",eventLabel:google_tag_manager["GTM-5JX93LK"].macro(170)||"NA",eventValue:"NA",userLocalEventDt:clientTime.transactionLocalDt||transactionLocalDt,eventUnixTimestamp:clientTime.timestamp});break;case "radio":window.peTrackerObject.saveTelemetryAction("event",
+{eventCategory:"TDX Player"||window.location.href.substring(0,200),eventAction:"Do Homework - Section 7.2",eventLabel:google_tag_manager["GTM-5JX93LK"].macro(221)||"NA",eventValue:"NA",userLocalEventDt:clientTime.transactionLocalDt||transactionLocalDt,eventUnixTimestamp:clientTime.timestamp});break;case "button":window.peTrackerObject.saveTelemetryAction("event",{eventCategory:google_tag_manager["GTM-5JX93LK"].macro(243)||google_tag_manager["GTM-5JX93LK"].macro(247)||window.location.href.substring(0,200),eventAction:"Do Homework - Section 7.2",eventLabel:google_tag_manager["GTM-5JX93LK"].macro(258)||
+"NA",eventValue:"NA",userLocalEventDt:clientTime.transactionLocalDt||transactionLocalDt,eventUnixTimestamp:clientTime.timestamp});break}else if(tagtype){tagtype=tagtype.toLocaleLowerCase();if(tagtype==="img")window.peTrackerObject.saveTelemetryAction("event",{eventCategory:google_tag_manager["GTM-5JX93LK"].macro(280)||window.location.href.substring(0,200),eventAction:"Do Homework - Section 7.2",eventLabel:google_tag_manager["GTM-5JX93LK"].macro(291)||"NA",eventValue:"NA",userLocalEventDt:clientTime.transactionLocalDt||transactionLocalDt,eventUnixTimestamp:clientTime.timestamp});
+else if(tagtype==="i")if("undefined".indexOf("fa")>-1)window.peTrackerObject.saveTelemetryAction("event",{eventCategory:google_tag_manager["GTM-5JX93LK"].macro(313)||window.location.href.substring(0,200),eventAction:"Do Homework - Section 7.2",eventLabel:google_tag_manager["GTM-5JX93LK"].macro(324)||"NA",eventValue:"NA",userLocalEventDt:clientTime.transactionLocalDt||transactionLocalDt,eventUnixTimestamp:clientTime.timestamp})}break}}})();</script>
+   
+
+
+<script type="text/javascript" id="">(function(){document.querySelectorAll("select");var c=document.querySelectorAll("select").length,b=function(a){"select"==a.target.tagName.toLowerCase()&&(a=a.target.options[a.target.selectedIndex],window.dataLayer.push({event:"selectionMade",selectedElement:a}))};document.addEventListener("change",b,!0);for(b=0;b<=c;b++);})();</script><script type="text/javascript" id="">(function(){function b(){var a=new c;a.addEventListener("readystatechange",function(d){},!0);return a}var c=window.XMLHttpRequest;window.XMLHttpRequest=b})();</script></body></html>
